@@ -1,6 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby-getting-started",
+    title: "Aditya's Personal Site",
+    author: "Santhosh Aditya"
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId:process.env.CONTENTFUL_SPACE_ID,
+        accessToken:process.env.CONTENTFUL_ACCESS_TOKEN
+      }
+    }
+  ],
 };
