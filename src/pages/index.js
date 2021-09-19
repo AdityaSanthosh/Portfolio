@@ -8,8 +8,10 @@ const IndexPage = () => {
     <div>
       <Layout>
         <Head title="Home"/>
-        <h2>This is the index Page</h2>
-        <p>Hello, If you are seeing this website, I may have sent you the link. So we must be friends or Acquintances. So I wish you all the best. I am still figuring out what to fill the page with. Maybe I will put a few pictures.</p>
+        <h2>Welcome User</h2>
+        <p>Thanks for Visiting this. Check out the Bio, Blog. I am still figuring out what to publish. If you have any ideas or suggestions, send them to my mail</p>
+        <p><a href="mailto:pssanthoshaditya2000@gmail.com">Suggest your Ideas here.</a></p>
+        <h6>Have a nice day</h6>
         <p><em>Please explore the rest of the site by using the navigation Bar</em></p>
       </Layout>
     </div>
