@@ -15,3 +15,13 @@
 .dynamicContent {
     margin-top: 1rem;
 }
+
+
+html[data-theme='dark'] {
+    background: #000;
+    filter: invert(1) hue-rotate(180deg)
+}
+
+html[data-theme='dark'] img {
+    filter: invert(1) hue-rotate(180deg)
+  }

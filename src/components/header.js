@@ -13,13 +13,14 @@ const Header = () => {
     }
     `)
     return (
-            <header className={headerStyles.header}>
+            <header className={headerStyles.header} className="col-sm-10">
                 <h1>
                     <Link to="/" className={headerStyles.title}>
                         {data.site.siteMetadata.title}
                     </Link>
                 </h1>
-            <nav>
+            <div className="row">
+            <nav className="col-sm-10">
                 <ul className={headerStyles.navList}>
                     <li><Link className={headerStyles.navItem} activeClassName={headerStyles.navActiveItem} to='/'>Home</Link></li>
                     <li><Link className={headerStyles.navItem} activeClassName={headerStyles.navActiveItem} to='/blog/'>Blog</Link></li>
@@ -27,6 +28,7 @@ const Header = () => {
                     <li><Link className={headerStyles.navItem} activeClassName={headerStyles.navActiveItem} to='/contact/'>Contact</Link></li>
                 </ul>
             </nav>
+            </div>
             </header>
     )
 }
