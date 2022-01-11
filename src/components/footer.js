@@ -17,7 +17,7 @@ const Footer = () => {
     `)
     return (
         <div>
-            <>Made by <Link className={FooterStyles.author} to='/about/'>{data.site.siteMetadata.author}</Link> © 2021.
+            <>A <Link className={FooterStyles.author} to='/about/'>{data.site.siteMetadata.author}</Link> Production © 2021.
             &nbsp;Total {data.allSitePage.totalCount} Pages in this Website.</>
         </div>
     )

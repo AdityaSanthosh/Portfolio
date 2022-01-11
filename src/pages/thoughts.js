@@ -30,7 +30,7 @@ const ThoughtsPage = () => {
                         return (
                             <li>
                                 <Link to={`/thoughts/${edge.node.slug}`}>
-                                <h3>{edge.node.title}</h3>
+                                <h3>{edge.node.title}</h3><br />
                                 </Link>
                             </li>     
                         )
